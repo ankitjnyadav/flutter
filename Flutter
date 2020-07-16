@@ -1,3 +1,7 @@
+-----------------------------
+Getting Started with Flutter!
+-----------------------------
+
 Why Flutter?
 https://www.freecodecamp.org/news/what-is-flutter-and-why-you-should-learn-it-in-2020/
 
@@ -8,3 +12,59 @@ Bespoke software is a software application developed specifically to your custom
 used when there is no 'off the shelf' alternative available.
 
 Same "codebase"
+
+Why Flutter?
+Beautiful UI/UX
+
+Flutter can be used to create
+1. iOS App
+2. Android App
+3. WebApp (Beta version) - Flutter for Web - HummingBird
+4. Desktop App (Beta version)
+
+Flutter is Framework. Built on top of "Dart" -Programming lang.
+
+------------------
+Installing Flutter
+------------------
+Download Flutter SDK
+Download Android Studio (IDE + SDK)
+
+Connect Flutter with Android SDK
+Set ANDROID_SDK_ROOT. Flutter will look for this env variable in order to setup communication.
+
+run flutter doctor
+-----------------------------------------------
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, v1.17.5, on Linux, locale en_IN)
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.0)
+[✓] Android Studio (version 4.0)
+[✓] Connected device (1 available)
+
+• No issues found!
+-----------------------------------------------
+
+• AVD Manager is like VirtualBox
+
+To check the no. of devices connected to Flutter:
+$ flutter devices
+1 connected device:
+RMX1931 • a363e8 • android-arm64 • Android 10 (API 29)
+
+To check the no. of emulators connected to Flutter:
+$ flutter emulatorst
+No emulators available.
+To create a new emulator, run 'flutter emulators --create [--name xyz]'.
+
+to run the flutter app
+be in the project directory
+
+$ flutter run
+(It will run on the device connected)
+
+
+Why is Flutter Fast?
+
+1 . Engine - SKIA - Graphics Rendering Engine
+2.  hot reload (stateful)
+
