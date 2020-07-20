@@ -1,0 +1,5 @@
+Install Dart from - https://dart.dev/get-dart
+
+
+Main function is important in Dart same like Java/C++
+Entrypoint in the programming file in Dart is main()

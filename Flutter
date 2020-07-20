@@ -68,3 +68,5 @@ Why is Flutter Fast?
 1 . Engine - SKIA - Graphics Rendering Engine
 2.  hot reload (stateful)
 
+
+Flutter is framework/platform as we make use of existing infrastructure developed by others.
