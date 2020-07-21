@@ -70,3 +70,9 @@ Why is Flutter Fast?
 
 
 Flutter is framework/platform as we make use of existing infrastructure developed by others.
+
+main.dart in the lib folder is the entrypoint (by default) of the flutter app.
+App and its dependent activies will launch from there.
+Futher more it will look for the main function.
+
+Look and feel (how it looks like) is known as UI.

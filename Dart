@@ -3,3 +3,6 @@ Install Dart from - https://dart.dev/get-dart
 
 Main function is important in Dart same like Java/C++
 Entrypoint in the programming file in Dart is main()
+
+to define a variable we can use:
+var var_name = any_data_type;
