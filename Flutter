@@ -83,3 +83,19 @@ Output the Data:
 2. Network - send() [Assume, send as a function]
 3. Mobile App - Text()
 
+
+What is Hot Reload?
+
+class MyHotApp extends StatelessWidget {
+  build(BuildContext c1) {
+    return MyApp();
+  }
+}
+
+
+To get the package:
+Goto:  http://pub.dev/
+
+Add -> flutter_statusbarcolor: ^0.2.3
+In the file under dependencies section: pubspec.yaml
+run flutter pub get  
