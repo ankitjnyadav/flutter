@@ -104,3 +104,4 @@ run flutter pub get
 Core - Layout
 
 Diff between two border is  Margin
+Within the box, distance from border - Padding
