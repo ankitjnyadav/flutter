@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'UI/home.dart';
 
 main() {
-  runApp(MyAppReload());
+  runApp(MyApp());
 }
 
-class MyAppReload extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return myapp1();
