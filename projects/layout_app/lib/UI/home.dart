@@ -25,7 +25,7 @@ myapp1() {
     width: double.infinity,
     height: double.infinity,
     color: Colors.grey.shade200,
-    margin: EdgeInsets.all(20),
+    margin: EdgeInsets.all(20),SOcial SOcial SOcial SOcial 
     child: Stack(
       alignment: Alignment.topCenter,
       children: <Widget>[
