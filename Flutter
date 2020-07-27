@@ -99,3 +99,8 @@ Goto:  http://pub.dev/
 Add -> flutter_statusbarcolor: ^0.2.3
 In the file under dependencies section: pubspec.yaml
 run flutter pub get  
+
+
+Core - Layout
+
+Diff between two border is  Margin
