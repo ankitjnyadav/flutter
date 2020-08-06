@@ -105,3 +105,54 @@ Core - Layout
 
 Diff between two border is  Margin
 Within the box, distance from border - Padding
+
+
+
+Flutter with Docker
+Send data using HTTP GET using the query string capability.
+
+For Admin level commands need permissions. Root in linux has that capabiltity.
+
+Webserver tries to run the command using the internal user named apache which is a general user.
+To check we can run => id user_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
