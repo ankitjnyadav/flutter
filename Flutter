@@ -120,6 +120,176 @@ To check we can run => id user_name
 
 
 
+taks1()	- 1 sec
+task2()	- 2mins
+task3() - 10 sec
+
+Synchronous 
+
+
+Billing Counter - McD
+
+	A
+	B
+	C
+	D
+
+Take order and once completed then call.
+To remember the order give "receipt"
+
+alltask() async{
+	task1();
+	var d2 = await	task2();
+	task3(d2);
+	task4();
+}
+
+task1(){
+	print();
+}
+
+task2() async{
+	var result;	
+	var d = duration(seconds: 15);
+	await Future.delayed(d,(){
+	result = "url usernam";	
+	print();
+	}));
+	return result;
+}
+
+task3(){
+	print();
+
+}
+task4(){
+	print();
+}
+task4(){
+}
+
+
+--------------------------------------
+import 'package:http/http.dart' as http;
+
+
+void main(){
+ alltask();
+}
+
+
+alltask(){
+ task1();
+ task2();
+ task3();
+}
+
+
+task1(){
+ print('Task 1');
+}
+
+task2() async{
+
+ var url = "https://192.168.0.12/cgi-bin/data.py");
+ var r = await http.get(url);
+ print(r.body);
+
+}
+
+
+task3(){
+ print('Task 3');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
