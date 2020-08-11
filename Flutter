@@ -202,13 +202,16 @@ task3(){
  print('Task 3');
 }
 
+------------------------------------------
 
 
 
+width: MediaQuery.of(context).size.width*0.8, 
+height: MediaQuery.of(context).size.width*0.3,
+color: Colors.transparent 
 
-
-
-
+If we want to change the content on the runtime - statefull
+If we dont want to - stateless
 
 
 
