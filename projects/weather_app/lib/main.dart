@@ -8,6 +8,7 @@ void main() {
   runApp(MyApp());
 }
 
+var data;
 // ignore: non_constant_identifier_names
 weather_details(city) async {
   var url =
@@ -17,7 +18,8 @@ weather_details(city) async {
 
   var paresedData = jsonDecode(data);
   print(paresedData['list'][0]['main']['temp']);
-  return paresedData['list'][0]['main']['temp'];
+  data = paresedData['list'][0]['main']['temp'];
+  //return temp.toString();
 }
 
 class MyApp extends StatelessWidget {
@@ -49,7 +51,7 @@ class MyApp extends StatelessWidget {
                 Text(''),
                 CupertinoButton(
                   color: Colors.green.shade400,
-                  onPressed: data = weather_details(args),
+                  onPressed: weather_details(args),
                   child: Text('Click Me'),
                 ),
                 Text(''),
