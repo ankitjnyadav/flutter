@@ -8,7 +8,6 @@ void main() {
   runApp(MyApp());
 }
 
-var data;
 // ignore: non_constant_identifier_names
 weather_details(city) async {
   var url =
@@ -19,12 +18,13 @@ weather_details(city) async {
   var paresedData = jsonDecode(data);
   print(paresedData['list'][0]['main']['temp']);
   data = paresedData['list'][0]['main']['temp'];
-  //return temp.toString();
+  return data;
 }
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
-  String args, data;
+  String args;
+  String data = 'AY';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -51,11 +51,19 @@ class MyApp extends StatelessWidget {
                 Text(''),
                 CupertinoButton(
                   color: Colors.green.shade400,
-                  onPressed: weather_details(args),
+                  onPressed: () {
+                    data = weather_details(args);
+                  },
                   child: Text('Click Me'),
                 ),
                 Text(''),
-                FlatButton(onPressed: null, child: Text(data))
+                FlatButton(onPressed: null, child: 
+                  ()=>{if(data != ''){
+                   Text(''); 
+                  }else{
+                    
+                  }}
+                ))
               ],
             ),
           ),
