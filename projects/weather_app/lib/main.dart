@@ -57,13 +57,8 @@ class MyApp extends StatelessWidget {
                   child: Text('Click Me'),
                 ),
                 Text(''),
-                FlatButton(onPressed: null, child: 
-                  ()=>{if(data != ''){
-                   Text(''); 
-                  }else{
-                    
-                  }}
-                ))
+                FlatButton(onPressed: null, child: Text('Weather Data'))
+                //Debug Point
               ],
             ),
           ),
